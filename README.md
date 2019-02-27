@@ -1,7 +1,7 @@
 # Jira CLI
 Wrapped go-jira CLI action. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details
 
-Requires [Jira Login](https://github.com/atlassian/gajira-login) to operate
+Requires [Jira Login](https://github.com/marketplace/actions/jira-login) to operate
 
 ## Usage
 Example workflow to add a comment to an issue:
@@ -30,4 +30,4 @@ action "Jira CLI" {
 - `email` - Jira user email
 
 ### Reads from $HOME/.jira.d/credentials
-- `JIRA_API_TOKEN` - Authentication token saved by [Jira Login Action](https://github.com/atlassian/gajira-login)
+- `JIRA_API_TOKEN` - Authentication token saved by [Jira Login Action](https://github.com/marketplace/actions/jira-login)
