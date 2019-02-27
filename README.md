@@ -1,9 +1,12 @@
 # Jira CLI
 Wrapped go-jira CLI action. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details
 
-Requires [Jira Login](https://github.com/marketplace/actions/jira-login) to operate
+For examples on how to use this, check out the [gajira-demo](https://github.com/atlassian/gajira-demo) repository
 
 ## Usage
+
+> ##### Note: this action requires [Jira Login Action](https://github.com/marketplace/actions/jira-login)
+
 Example workflow to add a comment to an issue:
 ```
 workflow "Comment issue" {
