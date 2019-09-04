@@ -1,0 +1,21 @@
+on:
+  push
+
+name: Test setup
+
+jobs:
+  test-setup:
+    name: Setup
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Setup
+      uses: ./
+      with:
+        version: 1.0.20
+
+    - name: Print version
+      run: |
+        jira version
