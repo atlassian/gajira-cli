@@ -1,0 +1,15 @@
+{
+  "name": "gajira-cli",
+  "version": "1.0.0",
+  "description": "Wrapped go-jira CLI action. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.0.0",
+    "@actions/tool-cache": "^1.1.0"
+  }
+}
