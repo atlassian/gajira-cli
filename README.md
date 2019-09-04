@@ -1,6 +1,8 @@
 # setup-jira
 Download and set up go-jira CLI. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details
 
+For examples on how to use this, check out the [gajira-demo](https://github.com/atlassian/gajira-demo) repository
+
 > ##### Only supports Jira Cloud. Does not support Jira Server (hosted)
 
 ## Usage
