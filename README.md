@@ -9,7 +9,7 @@ For examples on how to use this, check out the [gajira-demo](https://github.com/
 #### Set up 
 ```
 - name: Setup
-  uses: ./setup-jira
+  uses: atlassian/gajira-cli
   with:
     version: 1.0.20
 ```
