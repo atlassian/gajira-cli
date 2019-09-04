@@ -10,7 +10,7 @@ For examples on how to use this, check out the [gajira-demo](https://github.com/
 #### Set up 
 ```
 - name: Setup
-  uses: atlassian/gajira-cli
+  uses: atlassian/gajira-cli@master
   with:
     version: 1.0.20
 ```
