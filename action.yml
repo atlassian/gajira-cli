@@ -1,7 +1,9 @@
 # JavaScript action
-name: setup-jira
-
+name: Setup Jira
 description: Set up Jira CLI
+branding:
+  icon: 'check-square'
+  color: 'blue'
 
 inputs:
   version:
