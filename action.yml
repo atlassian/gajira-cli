@@ -12,5 +12,5 @@ inputs:
     default: 1.0.27
 
 runs:
-  using: 'node18'
+  using: 'node16'
   main: './dist/index.js'
