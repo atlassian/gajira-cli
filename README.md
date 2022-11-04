@@ -12,7 +12,7 @@ For examples on how to use this, check out the [gajira-demo](https://github.com/
 - name: Setup
   uses: atlassian/gajira-cli@master
   with:
-    version: 1.0.20
+    version: 1.0.27
 ```
 
 #### Usage in later workflow steps
