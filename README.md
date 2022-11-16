@@ -1,7 +1,6 @@
-# setup-jira
-Download and set up go-jira CLI. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details
+# Github Actions Jira CLI
 
-For examples on how to use this, check out the [gajira-demo](https://github.com/atlassian/gajira-demo) repository
+Download and set up go-jira CLI. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details
 
 > ##### Only supports Jira Cloud. Does not support Jira Server (hosted)
 
@@ -10,9 +9,9 @@ For examples on how to use this, check out the [gajira-demo](https://github.com/
 #### Set up 
 ```
 - name: Setup
-  uses: atlassian/gajira-cli@master
+  uses: atlassian/gajira-cli@3.0.0
   with:
-    version: 1.0.20
+    version: 1.0.27
 ```
 
 #### Usage in later workflow steps
