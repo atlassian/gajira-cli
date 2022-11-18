@@ -1,5 +1,4 @@
-on:
-  push
+on: push
 
 name: Test setup
 
@@ -14,8 +13,7 @@ jobs:
     - name: Setup
       uses: ./
       with:
-        version: 1.0.20
+        version: 1.0.27
 
     - name: Print version
-      run: |
-        jira version
+      run: jira version

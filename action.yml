@@ -9,8 +9,8 @@ inputs:
   version:
     description: Version of the CLI to use
     required: false
-    default: 1.0.20
+    default: 1.0.27
 
 runs:
-  using: 'node12'
+  using: 'node16'
   main: './dist/index.js'
