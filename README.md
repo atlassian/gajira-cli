@@ -9,7 +9,7 @@ Download and set up go-jira CLI. Check out [go-jira documentation](https://githu
 #### Set up 
 ```
 - name: Setup
-  uses: atlassian/gajira-cli@3.0.0
+  uses: atlassian/gajira-cli@v3
   with:
     version: 1.0.27
 ```
@@ -17,5 +17,5 @@ Download and set up go-jira CLI. Check out [go-jira documentation](https://githu
 #### Usage in later workflow steps
 ```
 - name: Make comment on Jira issue
-  run: jira --issue=GA-1 --comment=\"Actions in action\""
+  run: jira --issue=GA-1 --comment="Actions in action"
 ```
