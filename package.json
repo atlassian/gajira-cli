@@ -1,6 +1,6 @@
 {
-  "name": "gajira-cli",
-  "version": "3.0.0",
+  "name": "@atlassian/gajira-cli",
+  "version": "3.0.1",
   "description": "Wrapped go-jira CLI action. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "start": "ncc build index.js -w",
 		"precommit": "run-p build"
   },
-  "author": "Atlassian",
+  "author": "Atlassian <github@atlassian.com>",
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.10.0",
