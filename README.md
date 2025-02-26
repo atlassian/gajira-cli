@@ -1,7 +1,7 @@
 # Github Actions Jira CLI
 
 ---------
-⚠️ This repository isn’t maintained anymore.
+⚠️ This repository is no longer maintained and all Gajira actions have been deprecated.
 ---------
 
 Download and set up go-jira CLI. Check out [go-jira documentation](https://github.com/Netflix-Skunkworks/go-jira) for more arguments and usage details
